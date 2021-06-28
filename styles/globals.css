@@ -1,7 +1,8 @@
 @tailwind base;
 
 body {
-
+  margin:3em;
+  background-color: #3D3B3D;
 }
 
 main {
@@ -10,9 +11,50 @@ main {
 
 @tailwind components;
 
-.content {
 
+/* if i close .content with {} or remove .content the picture doesnt stay a circle */
+    .content .rounded {
+      @apply rounded-full h-24 w-24 mb-3;
+    }
+/* end of weird  thing*/
+
+.link {
+ @apply bg-white m-2 h-16 w-4/5 flex items-center justify-center border-2 border-white
 }
+
+a{
+  @apply w-full 
+}
+
+.link:hover{
+  @apply bg-gray-600 text-white transition delay-75 duration-100 ease-in-out cursor-pointer
+}
+
+.name{
+  @apply text-white mb-3
+}
+.links{
+  @apply w-screen grid flex-col justify-items-center;
+}
+
+.content{
+  @apply grid justify-items-center text-center w-screen
+}
+
+.icon{
+  @apply float-left ml-1
+}
+
+
+.shop a p, .arkh a p, .business a p{
+  @apply mt-1
+}
+
+
+p{
+  @apply w-auto
+}
+
 
 .title {
   @apply text-5xl md:text-7xl font-bold font-logo mb-12 max-w-2xl;
@@ -29,5 +71,7 @@ main {
 .note-body a {
   @apply text-purple-600 border-2 px-6 py-2 border-purple-600 w-3/4 block m-auto;
 }
+
+
 
 @tailwind utilities;
