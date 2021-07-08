@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-  margin:3em;
+  margin:auto;
   background-color: #3D3B3D;
 }
 
@@ -14,17 +14,25 @@ main {
 
 /* if i close .content with {} or remove .content the picture doesnt stay a circle */
     .content .rounded {
-      @apply rounded-full h-24 w-24 mb-3;
+      @apply rounded-full mb-3 h-24 w-24;
     }
 /* end of weird  thing*/
 
+
+
 .link {
- @apply bg-white m-2 h-16 w-4/5 flex items-center justify-center border-2 border-white
+  @apply bg-white m-2 h-16 w-4/5 flex items-center justify-center border-2 border-white
 }
 
 a{
-  @apply w-full 
+  @apply w-full flex justify-center
 }
+
+.business a , .shop a, .arkh a{
+  @apply flex items-center
+}
+
+
 
 .link:hover{
   @apply bg-gray-600 text-white transition delay-75 duration-100 ease-in-out cursor-pointer
@@ -33,16 +41,18 @@ a{
 .name{
   @apply text-white mb-3
 }
+
+
 .links{
   @apply w-screen grid flex-col justify-items-center;
 }
 
 .content{
-  @apply grid justify-items-center text-center w-screen
+  @apply grid justify-items-center text-center w-screen;
 }
 
 .icon{
-  @apply float-left ml-1
+  @apply float-left ml-1;
 }
 
 

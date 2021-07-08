@@ -57,28 +57,28 @@ export default function Home({
             </div>
 
             <div className="link business">
+              <img className="icon" src="https://via.placeholder.com/50" />
               <a href="https://www.instagram.com/_oblikua_/" target="_blank">
-                <img className="icon" src="https://via.placeholder.com/50" />
                 <p>「 øblıҡuɐ 」- IG -</p>
               </a>
             </div>
 
             <div className="link shop">
+                <img className="icon" src="https://via.placeholder.com/50" />
               <a
                 href="https://www.etsy.com/es/shop/obliKuaShop"
                 target="_blank"
               >
-                <img className="icon" src="https://via.placeholder.com/50" />
                 <p>「 øblıҡuɐ 」- ETSY - Shop unique wearable art</p>
               </a>
             </div>
 
             <div className="link arkh">
+                <img className="icon" src="https://via.placeholder.com/50" />
               <a
                 href="https://www.instagram.com/arkh.collective/"
                 target="_blank"
               >
-                <img className="icon" src="https://via.placeholder.com/50" />
                 <p> Arkh Collective - IG -</p>
               </a>
             </div>
