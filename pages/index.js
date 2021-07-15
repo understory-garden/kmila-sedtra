@@ -37,7 +37,7 @@ export default function Home({
         )}
         {customCSS && <style>{customCSS}</style>}
       </Head>
-      <main className="min-h-screen">
+      <main className="">
         <section className="content">
           <div className="lead">
             <img className="rounded" src="../assets/kmila.jpg" />

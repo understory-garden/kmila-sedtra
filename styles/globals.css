@@ -2,6 +2,7 @@
 
 body {
   margin:auto;
+  padding-top: 2%;
   background-color: #3D3B3D;
 }
 
@@ -12,16 +13,14 @@ main {
 @tailwind components;
 
 
-/* if i close .content with {} or remove .content the picture doesnt stay a circle */
     .content .rounded {
       @apply rounded-full mb-3 h-24 w-24;
     }
-/* end of weird  thing*/
 
 
 
 .link {
-  @apply bg-white m-2 h-16 w-4/5 flex items-center justify-center border-2 border-white
+  @apply bg-white m-2 h-14 w-4/5 flex items-center justify-center border-2 border-white
 }
 
 a{
